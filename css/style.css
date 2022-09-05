@@ -1,0 +1,24 @@
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+
+}
+input{ 
+    background-color: rgb(22, 115, 197);
+    color: aqua;
+}
+.hero{
+    text-align: center;
+    position: center;
+    font-size: 77px;
+}
+h1{
+    font-size: 40px;
+}
+
+#myName{
+    font-size: 70px;
+}
+.excited{
+    color: red;
+}
