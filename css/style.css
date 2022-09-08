@@ -1,13 +1,9 @@
 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
-
 }
 input{ 
-
     background-color:lightpink;
-
-
 }
 input::after{
     background-color: aquamarine    ;
@@ -17,13 +13,36 @@ input::after{
     position: center;
     font-size: 77px;
 }
+.starhero{
+padding-left: 200px;
+}
 h1{
     font-size: 40px;
 }
 
 #myName{
     font-size: 70px;
+    text-align: center;
+
 }
 .excited{
     color: red;
+    text-align: center;
+    font-size: 25px;
 }
+body,main{
+    margin: 0;
+    width: 100%;
+    background-image: url("/images/brickwall.jpeg");
+}
+
+.titleA{
+padding-left: 80px;
+text-decoration: underline red;
+}
+
+.titleB{
+    padding-left: 80px;
+    text-decoration: underline red;
+}
+
