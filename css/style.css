@@ -36,7 +36,7 @@ body,main{
     background-image: url("/images/brickwall.jpeg");
 }
 
-.title-a{
+.introduction{
 padding-left: 80px;
 text-decoration: underline red;
 }
@@ -54,4 +54,23 @@ text-decoration: underline red;
 
 figure{
     box-shadow: 12px;
+}
+
+.skate-bio{
+    justify-self: flex-end
+}
+
+.about-me{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px 8px 12px;
+}
+
+.frisco{
+    display: flex;
+    padding-left: 20px;
+
+}
+.fly{
+    padding-left: 10px;
 }
