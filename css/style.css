@@ -36,13 +36,22 @@ body,main{
     background-image: url("/images/brickwall.jpeg");
 }
 
-.titleA{
+.title-a{
 padding-left: 80px;
 text-decoration: underline red;
 }
 
-.titleB{
+.title-b{
     padding-left: 80px;
     text-decoration: underline red;
 }
 
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60em;
+}
+
+figure{
+    box-shadow: 12px;
+}
