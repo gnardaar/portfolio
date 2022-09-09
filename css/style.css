@@ -14,7 +14,10 @@ input::after{
     font-size: 77px;
 }
 .starhero{
-padding-left: 200px;
+
+justify-content: space-between;
+flex-direction: row;
+display: flex;
 }
 h1{
     font-size: 40px;
@@ -52,10 +55,6 @@ text-decoration: underline red;
     width: 60em;
 }
 
-figure{
-    box-shadow: 12px;
-}
-
 .skate-bio{
     justify-self: flex-end
 }
@@ -74,3 +73,15 @@ figure{
 .fly{
     padding-left: 10px;
 }
+figure img{
+    box-shadow: 12px 8px rgb(32, 180, 180, .5);
+    border-radius: 12px 0 12px 0;
+    size: 612px x 408px;
+}
+.frisco{
+    height: 402px;
+    width: 612px;
+margin-left: 45%;
+}
+
+
