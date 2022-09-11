@@ -1,114 +1,143 @@
-p{
+p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
+    font-weight: bold;
 }
-input{ 
-    background-color:lightpink;
+
+input {
+    background-color: rgb(32, 180, 180, .5);
 }
-input::after{
-    background-color: aquamarine    ;
+
+input::after {
+    background-color: aquamarine;
 }
-.hero{
+
+.hero {
     text-align: center;
     position: center;
     font-size: 77px;
 }
-.starhero{
 
-justify-content: space-evenly;
-flex-direction: row;
-display: flex;
+
+.starhero {
+
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
 
-#myName{
+#myName {
     font-size: 70px;
     text-align: center;
 
 }
-.excited{
+
+.title-message {
     color: red;
     text-align: center;
     font-size: 25px;
 }
-body,main{
+
+main {
+    margin: 0;
+    width: 100%;
+    background-image: url("/images/whitebg.jpeg");
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.hero-image{
     margin: 0;
     width: 100%;
     background-image: url("/images/brickwall.jpeg");
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: contain
 }
 
-.introduction{
-padding-left: 80px;
-text-decoration: underline red;
+
+body {
+    margin: 0;
+    width: 100%;
+    background-image: url("/images/brickwall.jpeg");
+    background-repeat: no-repeat;
+    
 }
 
-.title-b{
+.introduction {
     padding-left: 80px;
     text-decoration: underline red;
 }
 
-.about-me{
+.title-b {
+    padding-left: 80px;
+    text-decoration: underline red;
+}
+
+.about-me {
     display: flex;
     flex-wrap: wrap;
     width: 60em;
 }
 
-.skate-bio{
+.skate-bio {
     justify-self: flex-end
 }
 
-.about-me{
+.about-me {
     display: flex;
     flex-direction: row;
     padding: 5px 0px 8px 12px;
 }
 
-.frisco{
+.frisco {
     display: flex;
     padding-left: 20px;
 
+
 }
 
-figure img{
+figure img {
     box-shadow: 12px 8px rgb(32, 180, 180, .5);
     border-radius: 12px 0 12px 0;
     size: 612px x 408px;
 }
-.frisco{
+
+.frisco {
     height: 402px;
     width: 612px;
-margin-left: 45%;
+    margin-left: 45%;
 }
 
 
-.profile{
-    display: flex;
-    
-    flex-direction: row-reverse;
-    padding:12px;
+.profile {  
+    padding: 12px;
     height: 120px;
     width: 120px;
     border-radius: 50px;
-    
-    
 }
-
-.fly p{
+.profile img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.fly p {
     padding-left: 10px;
-margin: 30px 30px;
-justify-content: flex-end;
-display: flex
-
+    margin: 30px 30px;
+    justify-content: flex-end;
+    display: flex
 }
 
-.title-b{
-    
+.title-b {
     display: flex;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
 }
-    
-    
+
+form{
+    background-image: url("/images/whitebg.jpeg");
+
+}
